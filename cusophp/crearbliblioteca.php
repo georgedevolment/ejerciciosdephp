@@ -10,27 +10,14 @@
 	$dbh = new PDO("sqlite:basededatos.sqlite");
 
 	
-	$creartabla = 'CREATE TABLE animals(
-	 animal_id char(8) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-	 animal_type char(25) NOT NULL,
-	 animal_name VARCHAR(25) NOT NULL, 
+	$creartabla = 'CREATE TABLE discos(
+	artista char(20) NOT NULL,
+	Disco Char(40),
+	Anyo Integer
 	 )';
 
-/*$consulta =new PDO('INSERT INTO `animals` (`animal_id`, `animal_type`, `animal_name`) VALUES
-(1, 'kookaburra','bruce'),
-(2, 'emu', 'bruce'),
-(3, 'goanna', 'bruce'),
-(4, 'dingo', 'bruce'),
-(5, 'kangaroo', 'bruce'),
-(6, 'wallaby', 'bruce'),
-(7, 'wombat', 'bruce'),
-(8, 'koala', 'bruce');
-');
-	if($cosulta==TRUE){
-	echo "tabla creada";	
-	}
-	$dbh = NULL;
-	*/
+ 	
+	
 ?>
 </body>
 </html>
